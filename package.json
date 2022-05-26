@@ -1,0 +1,24 @@
+{
+  "name": "capstone-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://omarsarfraz-admin@bitbucket.org/omarsarfraz-admin/capstoneproject.git"
+  },
+  "author": "Omar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/omarsarfraz-admin/capstoneproject/issues"
+  },
+  "homepage": "https://bitbucket.org/omarsarfraz-admin/capstoneproject#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
