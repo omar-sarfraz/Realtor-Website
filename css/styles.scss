@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+$primary-color: #177BC3;
+$secondary-color: #000000;
+$backgroung-white: #FFFFFF;
+
+.body{
+    font-family: 'Poppins', sans-serif;
+
+    button {
+        font-weight: bold;
+    }
+}
+
+.navbar-brand{
+    color: $secondary-color;
+    
+    span{
+        color: $primary-color;
+    }
+    h2{
+        display: inline;
+    }
+}
+
+.navbar {
+    font-weight: 600;
+    margin-bottom: 4rem;
+
+    button {
+        font-weight: bold;
+    }
+
+    ul{
+        margin-right: 2rem;
+    }
+
+    li{
+        margin-right: 1rem;
+
+        a{
+            color: $secondary-color;
+        }
+    }
+    
+}
+
+.jumbotron{
+    img{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+hr{
+    border-top: 1px solid $primary-color;
+    width: 80%;
+    margin: 4rem auto;
+}
+
+h1{
+    span{
+        color: $primary-color;
+    }
+}
+
+#mycarousel {
+    img{
+        height: 200px;
+    }
+}
+
+@media (max-width: 920px) {
+    #mycarousel{
+        img{
+            height: 100%;
+        }
+    }
+}

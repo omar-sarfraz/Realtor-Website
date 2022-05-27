@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+.body {
+  font-family: 'Poppins', sans-serif; }
+  .body button {
+    font-weight: bold; }
+
+.navbar-brand {
+  color: #000000; }
+  .navbar-brand span {
+    color: #177BC3; }
+  .navbar-brand h2 {
+    display: inline; }
+
+.navbar {
+  font-weight: 600;
+  margin-bottom: 4rem; }
+  .navbar button {
+    font-weight: bold; }
+  .navbar ul {
+    margin-right: 2rem; }
+  .navbar li {
+    margin-right: 1rem; }
+    .navbar li a {
+      color: #000000; }
+
+.jumbotron img {
+  height: 100%;
+  width: 100%; }
+
+hr {
+  border-top: 1px solid #177BC3;
+  width: 80%;
+  margin: 4rem auto; }
+
+h1 span {
+  color: #177BC3; }
+
+#mycarousel img {
+  height: 200px; }
+
+@media (max-width: 900px) {
+  #mycarousel img {
+    height: 100%; } }
