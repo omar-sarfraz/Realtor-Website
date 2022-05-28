@@ -6,8 +6,6 @@
 
 .navbar-brand {
   color: #000000; }
-  .navbar-brand span {
-    color: #177BC3; }
   .navbar-brand h2 {
     display: inline; }
 
@@ -32,7 +30,7 @@ hr {
   width: 80%;
   margin: 6rem auto; }
 
-h1 span {
+span {
   color: #177BC3; }
 
 #mycarousel img {
@@ -41,6 +39,19 @@ h1 span {
 #testimonialCarousel img {
   height: 130px;
   border-radius: 50%; }
+
+#projectsContainer img {
+  height: 100%;
+  width: 100%; }
+
+#aboutContainer img {
+  height: 90%;
+  width: 100%;
+  border-radius: 0.5rem; }
+
+#contactContainer label {
+  font-size: 1.2rem;
+  font-weight: 500; }
 
 .d-grid a {
   text-decoration: none; }

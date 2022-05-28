@@ -15,9 +15,6 @@ $backgroung-white: #FFFFFF;
 .navbar-brand{
     color: $secondary-color;
     
-    span{
-        color: $primary-color;
-    }
     h2{
         display: inline;
     }
@@ -58,10 +55,8 @@ hr{
     margin: 6rem auto;
 }
 
-h1{
-    span{
-        color: $primary-color;
-    }
+span{
+    color: $primary-color;
 }
 
 #mycarousel {
@@ -74,6 +69,28 @@ h1{
     img{
         height: 130px;
         border-radius: 50%;
+    }
+}
+
+#projectsContainer{
+    img{
+        height: 100%;
+        width: 100%;
+    }
+}
+
+#aboutContainer{
+    img{
+        height: 90%;
+        width: 100%;
+        border-radius: 0.5rem;
+    }
+}
+
+#contactContainer{
+    label{
+        font-size: 1.2rem;
+        font-weight: 500;
     }
 }
 
