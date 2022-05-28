@@ -55,7 +55,7 @@ $backgroung-white: #FFFFFF;
 hr{
     border-top: 1px solid $primary-color;
     width: 80%;
-    margin: 4rem auto;
+    margin: 6rem auto;
 }
 
 h1{
@@ -73,7 +73,16 @@ h1{
 #testimonialCarousel{
     img{
         height: 130px;
-        border-radius: 0.5rem;
+        border-radius: 50%;
+    }
+}
+
+.d-grid {
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+        color: $backgroung-white;
     }
 }
 
@@ -81,6 +90,37 @@ h1{
     border: 1px solid $secondary-color;
     border-radius: 2rem;
     padding: 3rem 1rem;
+}
+
+footer{
+    color: $backgroung-white;
+    background-color: $primary-color;
+    a{
+        text-decoration: none;
+        color: $secondary-color;
+        font-weight: bold;
+
+        h2{
+            display: inline;
+        }
+
+        span{
+            color: $backgroung-white;
+        }
+    }
+
+    ul{
+        list-style: none;
+        li{
+            display: inline;
+            margin-right: 1rem;
+            
+            a{
+                color: $backgroung-white;
+            }
+        }
+    }
+    
 }
 
 @media (max-width: 920px) {
